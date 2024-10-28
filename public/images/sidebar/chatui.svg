@@ -1,0 +1,22 @@
+<svg width="24.000000" height="19.007324" viewBox="0 0 24 19.0073" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_181">
+			<rect id="settings-svgrepo-com 1" rx="-0.500000" width="17.000000" height="17.000000" transform="translate(4.500000 1.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_180">
+			<rect id="auto_awesome_FILL1_wght400_GRAD0_opsz48 1" rx="-0.500000" width="23.000000" height="18.007298" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="auto_awesome_FILL1_wght400_GRAD0_opsz48 1" rx="-0.500000" width="23.000000" height="18.007298" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_180)">
+		<rect id="settings-svgrepo-com 1" rx="-0.500000" width="17.000000" height="17.000000" transform="translate(4.500000 1.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip1_181)">
+			<path id="Vector" d="M8.36 8.58C8.86 8.51 9.36 8.68 9.71 9.03L10.61 9.93L11.45 9.09L10.23 7.87C10.04 7.68 10.04 7.37 10.23 7.18C10.42 6.99 10.73 6.99 10.92 7.18L12.14 8.4L12.99 7.56L12.09 6.66C11.74 6.3 11.57 5.8 11.63 5.3C11.78 4.17 11.42 2.98 10.55 2.11C9.66 1.22 8.45 0.87 7.3 1.04C7.11 1.06 7.04 1.29 7.17 1.42L8.32 2.57C8.87 3.12 8.87 4.01 8.32 4.55L7.61 5.26C7.06 5.81 6.18 5.81 5.63 5.26L4.48 4.11C4.35 3.98 4.12 4.05 4.09 4.24C3.92 5.39 4.28 6.61 5.17 7.49C6.04 8.36 7.22 8.72 8.36 8.58Z" fill="#003F52" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M15.53 10.09L14.68 10.94L19.71 15.96C19.9 16.15 19.9 16.46 19.71 16.65C19.52 16.84 19.21 16.84 19.02 16.65L13.99 11.63L13.14 12.47L18.33 17.65C18.98 18.31 20.05 18.3 20.7 17.65C21.36 16.99 21.36 15.93 20.71 15.27L15.53 10.09Z" fill="#003F52" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M17.47 6.74L19.71 6.74L21.94 2.27L20.82 1.16L16.36 3.39L16.36 5.62L10.28 11.67L9.19 10.59L4.79 14.99C3.87 15.9 3.87 17.39 4.79 18.31C5.71 19.22 7.19 19.22 8.11 18.31L12.51 13.91L11.4 12.79L17.47 6.74Z" fill="#003F52" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

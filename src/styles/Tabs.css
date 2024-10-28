@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap'); /* Added Lato font import */
+@import url('https://fonts.googleapis.com/css2?family=Soege&display=swap');
+
+.app-container {
+  display: flex;
+  width: 100%;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  max-height: 240px;
+  overflow-y: scroll;
+}
+
+.tab-button:hover{
+  background: #e5e7eb;
+
+}
+
+.tab-button {
+  background: #ffffff;
+  transition: background-color 0.5s ease;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+  position: relative;
+  color: #024154;
+}
+
+.tab-button.active {
+  background: #024154;
+  color: #ffffff;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.ki-badge, .pdf-badge {
+  background-color: #eefbff;
+  color: #007b9e;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: .75rem;
+  margin-left: auto;
+}
+
+.ki-badge {
+  background-color: #eefbff;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-block: 2px;
+}
+
+.pdf-badge {
+  background-color: #eefbff;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.description {
+  font-size: 12px;
+  color: inherit;
+  font-family: 'Lato', sans-serif;
+  text-align: start;
+  font-weight:400;
+}
+
+.content-container {
+ height: 480px;
+  /* padding-inline: 20px; */
+  border-radius: 5px;
+  margin-inline: 20px;
+  flex-grow: 1;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background: #007b9e;
+  color: #ffffff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 8px;
+  min-width: 120px;
+  z-index: 1;
+  border-radius: 4px;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content button {
+  background: none;
+  border: none;
+  color: #007b9e;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #f0f0f0;
+}
+
+          
+.linkbtn{
+   display: flex;
+   justify-content: start;
+   align-items: start;
+   width: 100%;
+   padding: 10px;
+}
+.btninside{
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 10px;
+}
+.button{
+  background-color: transparent;
+}
+.linkbtn{
+  background-color: transparent;
+  border: none;
+}
+
+
+
+ @media screen and (max-width: 480px) {
+  .content-container {
+    
+     padding-inline: 0px;
+     border-radius: 5px;
+     margin-inline: 0px;
+     flex-grow: 1;
+   }
+}

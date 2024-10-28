@@ -1,0 +1,175 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap'); /* Added Lato font import */
+@import url('https://fonts.googleapis.com/css2?family=Soege&display=swap');
+
+
+
+   .lexikon h2{
+      font-size: 24px;
+      font-family: 'Nunito', sans-serif;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 5px;
+
+   }
+   .lexikon{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding-top: 90px;
+     padding-bottom:50px;
+   }
+   .carousel-card h3{
+     text-align: start;
+     font-family: 'Nunito', sans-serif;
+
+   }
+   .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .carousel-cards {
+    width: 100%;
+    overflow: hidden;
+    margin-inline: 30px;
+  }
+  
+  .carousel-slide {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for 4 divs per slide */
+    gap: 1rem;
+    transition: transform 0.5s ease-in-out;
+    width: 200%; /* To accommodate 2 slides with 4 divs per slide */
+  }
+  
+  .carousel-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: start;
+    border: 1px solid silver;
+  }
+  
+  .carousel-card h3 {
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+
+  }
+
+  .carousel {
+    animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%); /* Adjust based on container width */
+    }
+}
+  .carousel-card p {
+    color: #666;
+    font-family:  'Nunito' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .carousel-button.prev {
+    left: 0px;
+    color: silver;
+    transition: transform 0.5s ease;
+  }
+  .carousel-button.prev:hover {
+    color:#459E97 !important;
+  }
+  
+  .carousel-button.next {
+    right: 0px;
+    color: silver;
+    transition: transform 0.5s ease;
+  }
+  .carousel-button.next:hover {
+    color:#459E97;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .carousel-slide {
+      grid-template-columns: repeat(4, 1fr); /* 3 columns for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-slide {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet screens */
+    }
+    .carousel-cards {
+       margin-inline: 0px;
+  }
+}
+  
+  @media (max-width: 576px) {
+    .carousel-slide {
+      grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .carousel-card{
+      width: 270px;
+    }
+    .content-container{
+      height: 100%;
+      /* margin-inline: 0px;
+      padding-inline: 20px; */
+    }
+    .carousel-button.prev {
+      left: -20px;
+      color: silver;
+      transition: transform 0.5s ease;
+    }
+    .carousel-button.next {
+      right: -20px;
+      color: silver;
+      transition: transform 0.5s ease;
+    }
+    .carousel-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+  }
+  
+
+  @media (max-width: 480px) {
+    .carousel-slide {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

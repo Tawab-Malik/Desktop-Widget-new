@@ -1,0 +1,41 @@
+
+
+
+.sectionmain{
+     display: flex;
+     justify-content: center;
+     padding-top: 50px;
+     
+}
+.btninside2{
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btninside2 h3{
+     font-size: 18px;
+     color: #024154;
+     font-weight: 600;
+}
+button.linkbtn.tab-button {
+     font-size: 16px;
+     font-family: 'Nunito', sans-serif !important;
+
+}
+/* .btninside p{
+     color: #024154;
+     font-size: 12px;
+} */
+
+/* .linkbtn.tab-button {
+     background-color: white; /* Default background */
+     /* transition: background-color 0.3s ease; */
+ /* } */
+ 
+ /* .linkbtn.tab-button.open {
+     background-color: #003f52; /* Background color when isOpen is true */
+     /* color: white !important; */
+ /* } */

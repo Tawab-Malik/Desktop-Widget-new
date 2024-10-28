@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Soege&display=swap');
+
+
+.zung {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 465px; 
+ 
+    text-align: center;
+    flex-direction: column;
+   
+  }
+  .zung h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: start;
+  }
+  .zung h3{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  
+  
+  

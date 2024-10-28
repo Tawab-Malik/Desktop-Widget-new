@@ -1,0 +1,145 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap'); /* Added Lato font import */
+  @import url('https://fonts.googleapis.com/css2?family=Soege&display=swap');
+  .card {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    justify-content: start;
+    align-items: start;
+    align-items: start;
+    padding: 20px 30px;
+    padding-bottom: 40px;
+
+  }
+
+  .copy.iconname{
+    color: #003F52;
+  }
+  .iconss{
+     display: flex;
+     column-gap: 5px;
+  }
+  .card-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 40px;
+  }
+  
+  .card-image {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .card-format{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  .downbtn{
+    height: 25px;
+    width: 25px;
+  }
+  .card-title {
+    font-family: 'Soege', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+      text-align: start !important;
+     color: #003F52;
+     font-family: 'Nunito', sans-serif;
+  }
+  .tab-content{
+    height: 490px;
+    overflow-y: scroll;
+  }
+  .card-category {
+    color: #459e97;
+    font-size: 9px;
+    margin-top: 5px;
+    
+  }
+  .heartbtn{
+     height: 50px;
+     width: 50px;
+     border-radius: 12px;
+     color: #003F52;
+     padding: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .heartbtnmain{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     column-gap: 10px;
+  }
+  .card-pageCount{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  .card-lastUpdate{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  
+  .card-description {
+    font-size: 12px;
+    color: #333;
+    margin-top: 10px;
+  }
+  .copy{
+     display: flex;
+     column-gap:3px;
+     align-items: center;
+     justify-content: center;
+  }
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #777;
+    align-items: center;
+  }
+  
+  .card-details i {
+    margin-right: 5px;
+  }
+  
+  .download-button {
+    background-color: #459E97;
+    color: white;
+    border: none;
+    padding-block: 15px;
+    border-radius: 10px;
+    padding-inline: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .download-button:hover {
+    background-color: #003F52;
+  }
+ 
+  .downloaddiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
