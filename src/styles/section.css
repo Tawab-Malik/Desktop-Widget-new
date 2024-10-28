@@ -235,7 +235,7 @@ h3 {
 }
 
 .mainsection{
-   width: 1015px;
+   width: 1088px;
    padding-bottom: 20px;
    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
    overflow-x: hidden;
@@ -244,10 +244,10 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1088px;
+  width: 1088px;
   margin-inline: auto;
   background: #459E97;
-  padding: 10px 50px;
+  padding: 20px 50px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   color: white;
