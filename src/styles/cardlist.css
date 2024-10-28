@@ -108,6 +108,7 @@
      column-gap:3px;
      align-items: center;
      justify-content: center;
+     flex-wrap: wrap !important;
   }
   .card-details {
     display: flex;
@@ -116,8 +117,15 @@
     font-size: 0.8rem;
     color: #777;
     align-items: center;
+    flex-wrap: wrap !important;
+    row-gap: 10px;
   }
-  
+  .card-details .copy {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap !important;
+
+  }
   .card-details i {
     margin-right: 5px;
   }
